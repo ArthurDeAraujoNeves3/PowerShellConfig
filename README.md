@@ -293,3 +293,7 @@ disabled=true
 ```
 Vídeo quee utilizei de base:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AK2JE2YsKto/0.jpg)](https://www.youtube.com/watch?v=AK2JE2YsKto)
+
+### Extras
+
+Autocomplete no powershell por meio do comando Install-Module -Name PSReadLine -AllowClobber -Force
