@@ -37,9 +37,13 @@ Minhas configuração do meu terminal no Windows 10 / 11
             "keys": "ctrl+shift+f"
         }
     ],
+    "alwaysShowNotificationIcon": false,
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "firstWindowPreference": "defaultProfile",
+    "launchMode": "maximized",
     "newTabMenu": 
     [
         {
@@ -135,6 +139,8 @@ Minhas configuração do meu terminal no Windows 10 / 11
             "yellow": "#3D2AFF"
         }
     ],
+    "showTabsInTitlebar": true,
+    "tabWidthMode": "equal",
     "theme": "legacyDark",
     "themes": [],
     "useAcrylicInTabRow": true
