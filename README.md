@@ -151,9 +151,11 @@ No momento estou utilizando a **JetBrainsMono**, o link para o download dela est
 ### Starship
 Antes de tudo, tenha certeza que instalou o [chocolatey](https://chocolatey.org/install#individual) na sua máquina.
 Instale o starship com os seguintes comandos:
-1) choco install starship
-2) execute o comando code $PROFILE e cole o comando Invoke-Expression (&starship init powershell), agora toda vez que iniciar o seu powershell, ele será executado automaticamente.
-3) Execute o comando mkdir -p ~/.config, logo em seguida crie o arquivo com o nome starship.toml, e dentro dele cole a seguinte configuração:
+```bash
+choco install starship
+```
+2) execute o comando `code $PROFILE` e cole o comando `Invoke-Expression (&starship init powershell)`, agora toda vez que iniciar o seu powershell, starship será executado automaticamente.
+3) Execute o comando `mkdir -p ~/.config`, logo em seguida crie o arquivo com o nome **starship.toml**, e dentro dele cole a seguinte configuração:
 ```bash
 format = """\
 [╭╴](fg:arrow)\
@@ -297,9 +299,12 @@ symbol = " "
 version_format = "${raw}"
 disabled=true
 ```
-Vídeo quee utilizei de base:
+Vídeo que utilizei de base:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/AK2JE2YsKto/0.jpg)](https://www.youtube.com/watch?v=AK2JE2YsKto)
 
 ### Extras
 
-Autocomplete no powershell por meio do comando Install-Module -Name PSReadLine -AllowClobber -Force
+Autocomplete no powershell 
+```bash
+Install-Module -Name PSReadLine -AllowClobber -Force
+```
