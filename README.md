@@ -1,4 +1,4 @@
-Minhas configuração do meu terminal no Windows 10 / 11
+Minhas configuração do meu powershell
 
 ### settings.json
 ```bash
